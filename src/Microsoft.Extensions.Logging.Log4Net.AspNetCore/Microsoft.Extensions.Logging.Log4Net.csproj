@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net461</TargetFrameworks>
+	</PropertyGroup>
+	<PropertyGroup>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+		<PackageId>Microsoft.Extensions.Logging.Log4Net</PackageId>
+		<Authors>Huor Swords</Authors>
+		<Company></Company>
+		<Product>Microsoft.Extensions.Logging.Log4Net</Product>
+		<Description>
+			Allows to configure Log4net as Microsoft Extensions Logging handler on any ASP.NET application.
+
+			Original code proposal by @anuraj --&gt; https://dotnetthoughts.net/how-to-use-log4net-with-aspnetcore-for-logging/
+		</Description>
+		<Copyright></Copyright>
+		<PackageTags>Microsoft Extensions Logging Log4Nete</PackageTags>
+		<RootNamespace>Microsoft.Extensions.Logging.Log4Net</RootNamespace>
+		<AssemblyName>Microsoft.Extensions.Logging.Log4Net</AssemblyName>
+		<PackageReleaseNotes>#113 - BeginScope don't work as expected
+# BREAKING CHANGES
+* External scope can't be used with the scope factories anymore.
+* Conversion of numeric values now are managed through CultureInfo.InvariantCulture
+		</PackageReleaseNotes>
+		<PackageProjectUrl>https://github.com/Sigman32/Microsoft.Extensions.Logging.Log4Net.AspNetCore</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Sigman32/Microsoft.Extensions.Logging.Log4Net.AspNetCore</RepositoryUrl>
+		<Version>5.7.142.1</Version>
+		<AssemblyVersion>5.7.142.1</AssemblyVersion>
+		<FileVersion>5.7.142.1</FileVersion>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile Condition="'$(Configuration)' == 'Release'">Microsoft.Extensions.Logging.Log4Net.AspNetCoreKey.snk</AssemblyOriginatorKeyFile>
+		<PackageLicenseExpression></PackageLicenseExpression>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+	</PropertyGroup>
+	<PropertyGroup>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.SourceLink.AzureRepos.Git" Version="1.0.0" PrivateAssets="All" />
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
+
+		<PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.2.4" />
+
+		<PackageReference Include="log4net" Version="1.2.10" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+</Project>

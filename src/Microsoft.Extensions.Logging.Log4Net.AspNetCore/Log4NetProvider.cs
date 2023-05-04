@@ -1,9 +1,9 @@
 ﻿using log4net;
 using log4net.Config;
 using log4net.Repository;
-using Microsoft.Extensions.Logging.Log4Net.AspNetCore.Entities;
-using Microsoft.Extensions.Logging.Log4Net.AspNetCore.Extensions;
-using Microsoft.Extensions.Logging.Log4Net.AspNetCore.Scope;
+using Microsoft.Extensions.Logging.Log4Net.Entities;
+using Microsoft.Extensions.Logging.Log4Net.Extensions;
+using Microsoft.Extensions.Logging.Log4Net.Scope;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;

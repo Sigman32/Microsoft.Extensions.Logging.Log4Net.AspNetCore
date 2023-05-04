@@ -1,7 +1,7 @@
 ﻿using log4net;
 using System;
 
-namespace Microsoft.Extensions.Logging.Log4Net.AspNetCore.Extensions
+namespace Microsoft.Extensions.Logging.Log4Net.Extensions
 {
     /// <summary>
     /// The <see cref="ILogExtensions"/> class.

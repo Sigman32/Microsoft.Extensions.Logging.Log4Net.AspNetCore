@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Logging.Log4Net.AspNetCore.Entities;
-using Microsoft.Extensions.Logging.Log4Net.AspNetCore.Scope;
+﻿using Microsoft.Extensions.Logging.Log4Net.Entities;
 using System.Collections.Generic;
 
 namespace Microsoft.Extensions.Logging

@@ -1,5 +1,5 @@
 ﻿using log4net.Core;
-using Microsoft.Extensions.Logging.Log4Net.AspNetCore.Entities;
+using Microsoft.Extensions.Logging.Log4Net.Entities;
 
 namespace Microsoft.Extensions.Logging
 {

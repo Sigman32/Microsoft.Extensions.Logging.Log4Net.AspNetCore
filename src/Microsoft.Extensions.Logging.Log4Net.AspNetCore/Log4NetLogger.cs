@@ -1,6 +1,6 @@
 ﻿using log4net;
 using log4net.Core;
-using Microsoft.Extensions.Logging.Log4Net.AspNetCore.Entities;
+using Microsoft.Extensions.Logging.Log4Net.Entities;
 using System;
 
 namespace Microsoft.Extensions.Logging
